@@ -1,15 +1,79 @@
-# Getting Started with Create React App
+# 🚀 VOPA Assignment - Tender Details Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Clone the repository
 
-## Available Scripts
+```bash
+git clone https://github.com/your-username/vopa-assignment.git
+cd vopa-assignment
+```
 
-In the project directory, you can run:
+## Install dependencies
 
-### `npm start`
+```bash
+npm install
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Run the application
+
+```bash
+npm start
+```
+
+Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+---
+
+## 📂 Project Structure
+
+```
+/src
+  ├── components
+      ├── Loader
+          ├── ThreeDCircleLoader.css
+          ├── ThreeDCircleLoader.jsx
+      ├── TenderChart.jsx
+      ├── TenderModal.jsx
+  └── App.css
+  ├── App.jsx
+  └── index.js
+  └── index.css
+  └── main.js
+
+```
+
+---
+
+## 📸 Screenshots
+
+### Tender Details  
+![Tender Details](screenshot/11.png)
+
+### Chart with Dropdown  
+![Chart with Dropdown](screenshot/chart-1.png)
+![Chart with Dropdown](screenshot/chart-2.png)
+![Chart with Dropdown](screenshot/chart-3.png)
+![Chart with Dropdown](screenshot/chart-4.png)
+![Chart with Dropdown](screenshot/chart-5.png)
+
+*(Add your own screenshots in the `/screenshots` folder)*
+
+---
+
+## 📦 Deployment
+
+## Netlify - https://exquisite-paprenjak-fac28c.netlify.app/
+## GitHub - https://github.com/ganeshsabale99/VOPA-Assignment-Tender-Details-Viewer
+
+---
+
+## 👨‍💻 Author
+
+**Ganesh Sabale**  
+📧 Email: [sabaleganesh99@gmail.com](mailto:sabaleganesh99@gmail.com)
+
+---
+
+🙌 **Thank You for reviewing!**
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
