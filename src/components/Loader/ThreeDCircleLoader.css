@@ -1,0 +1,48 @@
+.three-d-circle-loader {
+  position: relative;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #1e1e1e 40%, transparent 41%); /* Inner filled */
+  border: 6px solid transparent;
+  border-top: 6px solid #ff6ec7;
+  border-right: 6px solid #42a5f5;
+  border-bottom: 6px solid #00e676;
+  border-left: 6px solid #ff9800;
+  animation: rotate3dloader 1.2s linear infinite;
+  transform-style: preserve-3d;
+  box-shadow:
+    0 0 10px #ff6ec7,
+    0 0 20px #42a5f5,
+    0 0 30px #00e676,
+    0 0 40px #ff9800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white; /* Text color */
+  font-weight: bold;
+  font-size: 1.1rem;
+  overflow: hidden; /* Prevent any unwanted overflow */
+}
+
+.loader-text {
+  z-index: 2; /* Bring text above */
+}
+
+@keyframes rotate3dloader {
+  0% {
+    transform: rotate3d(1, 1, 0, 0deg);
+  }
+  25% {
+    transform: rotate3d(1, 1, 0, 90deg);
+  }
+  50% {
+    transform: rotate3d(1, 1, 0, 180deg);
+  }
+  75% {
+    transform: rotate3d(1, 1, 0, 270deg);
+  }
+  100% {
+    transform: rotate3d(1, 1, 0, 360deg);
+  }
+}
